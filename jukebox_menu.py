@@ -1,5 +1,8 @@
 from juke_box_songs import albums
 
+SONG_LIST_INDEX = 3
+SONG_TITLE_INDEX = 1
+
 while True:
     print("Please Choose an album from the options below (invalid choice will exit):")
     for index, (title, artist, year, songs) in enumerate(albums):
