@@ -1,4 +1,3 @@
-from xml.etree.ElementTree import TreeBuilder
 from juke_box_songs import albums
 
 while True:
